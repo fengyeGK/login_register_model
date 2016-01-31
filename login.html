@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <style>
+        .error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<form id="loginForm">
+    <div>
+        <label>用户名</label>
+        <input type="text" name="phone" id="phone" placeholder="手机号码" >
+    </div>
+    <div>
+        <label>密码</label>
+        <input type="password" name="password" id="password" >
+    </div>
+    <div><input type="submit" value="登录"></div>
+</form>
+<h3>注：以上测试输入13512345678手机号和密码123456，可登陆成功</h3>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>
